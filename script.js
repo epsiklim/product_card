@@ -17,5 +17,6 @@ class Product{
             <button>Buy</Button>
         `
         document.body.append(container);
+        container.remove();
     }
 }
